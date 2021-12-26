@@ -1,0 +1,18 @@
+<html>
+<body>
+  <div>
+    <table>
+      <thead>
+        <th>Product</th><br><br>
+        <th>Brand</th><br>
+      </thead>
+      <tbody>
+        <tr *ngFor =' let product in products;'>
+          <td>{{product.prod}}</td>
+          <td>{{product.brand}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
