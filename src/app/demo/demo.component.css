@@ -21,3 +21,12 @@ table, td {
   border-radius: 4rem ;
 
 }
+.button-style-01{
+  background-color:  dimgray;
+  font-style: inherit ;
+  font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color :  deepskyblue ;
+  border-radius: 4rem ;
+
+
+}

@@ -11,7 +11,8 @@
         <tr *ngFor="let product of products">
           <td>{{product.prod}}</td>
           <td>{{product.brand}}</td>
-          <td><button class='button-style'>Choose</button></td>
+          <td *ngIf =" product.brand=='Loreal'"><button class='button-style-01'>Display Offers</button></td>
+          <td *ngIf =" product.brand!='Loreal'"><button class='button-style'>Choose Loreal</button></td>
         </tr>
       </tbody>
     </table>
