@@ -2,14 +2,16 @@
 <body>
   <div>
     <table>
-      <thead>
-        <th>Product</th><br><br>
-        <th>Brand</th><br>
+      <thead class='thead'>
+        <th>Product</th>
+        <th>Brand</th>
+        
       </thead>
-      <tbody>
-        <tr *ngFor =' let product in products;'>
+      <tbody class='tbody'>
+        <tr *ngFor="let product of products">
           <td>{{product.prod}}</td>
           <td>{{product.brand}}</td>
+          <td><button class='button-style'>Choose</button></td>
         </tr>
       </tbody>
     </table>

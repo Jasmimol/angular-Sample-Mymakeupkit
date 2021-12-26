@@ -1,0 +1,23 @@
+table, td {
+  border: 1px solid black;
+}
+.thead{
+  font-style: inherit ;
+  font-family: 'Courier New', Courier, monospace;
+  color:darkslategrey;
+  font-weight:  900;
+}
+.tbody{
+  font-style: inherit ;
+  font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color : cadetblue ;
+  font-weight: 100;
+}
+.button-style{
+  background-color:  dimgray;
+  font-style: inherit ;
+  font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color : cadetblue ;
+  border-radius: 4rem ;
+
+}

@@ -5,3 +5,10 @@ p {
   font-display:  initial;
   font-style: oblique;
 }
+.heading{
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  color:  burlywood;
+  font-size:  x-small;
+  font-display:  initial;
+  font-style:  unset;
+}
