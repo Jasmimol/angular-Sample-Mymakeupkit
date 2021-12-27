@@ -11,8 +11,8 @@
         <tr *ngFor="let product of products">
           <td>{{product.prod}}</td>
           <td>{{product.brand}}</td>
-          <td *ngIf =" product.brand=='Loreal'"><button class='button-style-01'>Display Offers</button></td>
-          <td *ngIf =" product.brand!='Loreal'"><button class='button-style'>Choose Loreal</button></td>
+          <td *ngIf =" product.brand=='Loreal'"(click)='Displayoffers()' ><button class='button-style-01' ng-click='count=count+1',ng-init='count=0'>Display Offers</button></td> 
+          <td *ngIf =" product.brand!='Loreal'" (click)='Displayproducts()'><button class='button-style'>Choose Loreal</button></td>
         </tr>
       </tbody>
     </table>
