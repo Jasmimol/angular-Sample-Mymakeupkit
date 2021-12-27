@@ -1,9 +1,15 @@
 <html>
 <body>
 <ul class='makeup'>
-<li *ngFor="let product of products;" > 
+<li *ngFor="let product of products;" [class.selected]="product === selectedProduct"
+(click)="onSelect(product)" >
+
+  <span>{{product.prod}}</span>&nbsp; &nbsp;
 </li>
 </ul>
+<div class='button-style' *ngIf="selectedProduct">
+  <p>{{selectedProduct.brand}}</p>
+</div>
 </body>
 <div ></div>
 </html>

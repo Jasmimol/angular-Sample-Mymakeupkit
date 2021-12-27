@@ -7,17 +7,17 @@ table, td {
   color:darkslategrey;
   font-weight:  900;
 }
-.tbody{
+.makeup{
   font-style: inherit ;
   font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color : cadetblue ;
   font-weight: 100;
 }
 .button-style{
-  background-color:  dimgray;
+  background-color:  white;
   font-style: inherit ;
   font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color : cadetblue ;
+  color  : brown ;
   border-radius: 4rem ;
 
 }
